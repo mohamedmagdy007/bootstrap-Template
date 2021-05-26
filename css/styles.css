@@ -1,0 +1,256 @@
+#top {
+	padding-top: 20px;
+	background:url('../images/banner.jpg') no-repeat center -150px;
+	height: 100vh;
+}
+
+#top nav{
+	background-color: #000 !important;
+	
+}
+
+#top nav .nav-link {
+	color: white !important;
+	font-size: 13px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#social a{
+	border: thin #fff solid;
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: block;
+	padding: 0 !important;
+	line-height: 30px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	margin-right: 10px;
+	
+}
+.navbar-toggler-icon {
+	background-image: url('../images/menu.png') !important;
+}
+
+#top .container {
+	display: flex;
+	flex-direction: column;
+	
+	height: 90%;
+	justify-content:center;
+}
+
+#top h5 {
+	text-transform: uppercase;
+}
+
+#top h5 span{
+	text-transform: capitalize;
+}
+
+#top h1{
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 55px;
+}
+
+#top h1:nth-of-type(2){
+	color:#cd8383;
+}
+
+#top .container a{
+	text-decoration: none;
+	color:#000;
+	background-color: #FFF;
+	border-radius: 20px;
+	align-self: flex-start;
+	padding: 7px 20px;
+	text-transform: capitalize;
+	margin-top: 15px;
+}
+
+
+
+
+#section2 {
+	background-color: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+}
+
+
+#section2 p {
+	text-align: justify;
+	font-size: 13px;
+}
+
+
+#section2 h2 {
+	font-size: 22px;
+}
+
+#h1{
+	height: 170px;
+	padding: 0;
+	line-height: 170px;
+	text-align: center;
+/*	background-image: url('../images/bg.png');
+	background-repeat: repeat-x;
+*/
+	background-image: url('../images/sep.png');
+}
+
+.dicount {
+	background-color: RGBA(0,0,0,0.5);
+	padding: 5px 10px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: #fff;
+	border-radius: 7px;
+	font-size: 13px;
+}
+
+#deal h1 {
+	margin-top: 60px;
+	font-weight: 600;
+}
+
+#deal .card {
+	margin-top: 40px;
+}
+
+#arrivals {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #000;
+	margin-top: 100px;
+}
+
+
+#arrivals h3 {
+	color: #ffbe01;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#arrivals img {
+	margin-bottom: 20px;
+}
+
+#order {
+	background-image: url('../images/sep.png');
+	background-size: cover;
+	height: 200px;
+}
+
+#order .container {
+	height: 150px;
+}
+
+#ach {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #000;
+	color: #FFF !important;
+}
+
+#ach  h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+#form {
+		background: linear-gradient(RGBA(55,72,202,0.5),RGBA(55,72,202,0.5)),
+			url('../images/contactus.jpg') center center;
+	color: #FFF !important;
+	text-align: justify;
+	border-bottom: 10px solid  #ffbc00;
+}
+
+#form .container {
+	padding-top:70px;
+	padding-bottom: 70px;
+}
+
+#form .form {
+	flex-wrap: wrap;
+	box-shadow: 0 0 10px 4px #ffbc00;
+	border-radius: 8px;
+	padding: 12px;	
+}
+
+#form .form input, #form .form button {
+	flex-basis: 100%;
+	margin-bottom: 10px;
+	outline: none !important;
+	border:none !important;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	border-radius: 2px;
+}
+
+#form .form button {
+	background-color:  #ffbc00;
+}
+
+/**********************************************************************/
+#contact {
+	background-color: #0e0e0e;
+	color: #fff;
+	padding-top: 30px;
+}
+#contact ul{
+	list-style-type: none;
+}
+#contact ul li{
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+}
+#contact .online li:nth-of-type(1) h3{
+font-size: 1.5rem;
+}
+#contact .online li:nth-of-type(2) i{
+font-size: 50px;
+margin-bottom: 15px;
+}
+
+#contact .online li:nth-of-type(3) p{
+	border-bottom: thin solid #ccc;
+}
+#contact .online li:nth-of-type(3) button{
+	color: #555;
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+}
+@media (min-width: 576px) {  
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+	
+#section2 h2 {
+	font-size: 30px;
+}
+	
+#section2 p {
+	font-size: 15px;
+}
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	#order {
+		height: 150px;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+}
+
+
